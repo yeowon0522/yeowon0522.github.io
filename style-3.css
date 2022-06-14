@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;}
+body{
+    width: 100vw; 
+}
+
+.header{
+    width: 100vw;
+    height: 60px;
+    background: #fff;
+    font-family: 'Inter';
+}
+.header .navi{
+    display: flex;
+}
+.navi ul{ 
+    list-style: none;
+    display: flex;
+    margin-top: 24px;
+}
+.navi li{
+    padding-right: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #3D3D3D;
+}
+.menu_btn{
+    text-align: center;
+    padding: 10px;
+}
+.menu_bg{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top:0;
+    display: none;
+}
+.sidebar_menu{
+    position: relative;
+    display: none;
+    width: 20%;
+    height: 100%;
+    background: #E9591D;
+    position: absolute;
+    top:0;
+    right: -20%;
+    border-radius: 0px 0px 0px 140px;
+    padding-left: 10px; padding-top: 5px;
+    z-index: 2;
+}
+.sidebar_menu .link img{
+    position: absolute;
+    width: 90px;
+    /* margin-left: 170px;  */
+    top: 15px; left: 198px;
+}
+.close_btn{ 
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+.close_btn > a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.menu_wrap{
+    list-style: none;
+    padding: 20px 10px;   
+}
+.menu_wrap li{ 
+    padding-top: 15px; padding-bottom: 15px;
+    margin-right: 5px;
+    border-width: 1.2px 0px 1.2px 0px;
+    border-style: solid; border-color: #FFFFFF;
+}
+.menu_wrap li a{ 
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+/* -----첫 번째 단락------- */
+
+.background{
+    width: 100vw; height: 240px;
+    background-image: url(b1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first{ 
+    width: 1200px; height: 768px;
+    margin-top: 80px;
+    font-family: 'Inter';
+}
+.info h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    color: #232323;
+    margin-bottom: 10px;
+}
+.info h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    color: #E9591D;
+}
+.info p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+/* ----카드------- */
+
+.card{
+    width: 1200px;
+    font-family: 'Inter';
+    color: #FFFFFF;
+}
+.card .g1{
+    position: relative;
+    background-image: url(i1.png);
+    width: 300px; height: 320px;
+    left: 100px;
+    top: 572px;
+    border-radius: 24px;
+}
+.g1 .top{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+
+    width: 250px; height: 20px;
+    left: 24px; top: 24px;
+}
+.g1 h4{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+    border-width: 0px 0px 2.4px 0px;
+    border-style: solid;
+    border-color: #fff;
+}
+.g1 h5{
+    position: absolute; top: 68px;left: 24px;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.g1 p{
+    position: absolute;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    top: 108px;left: 24px;
+    width: 252px;
+}
+.g1 h6{
+    position: absolute; right: 24px; top: 280px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+}
+
+
+/* ----푸터------- */
+  footer{
+    width: 100%; height: 180px;
+    margin: auto;
+    left: 0;  bottom: 0;
+    background-color: #161616;
+    margin-top: 100px;
+    }  
+    footer .all{
+    width: 1200px;
+    margin: auto;
+    min-width: 1200px;
+    }
+    footer a {
+    color: #E9E9E9;
+    }  
+    footer .logo{
+    margin-left: 80px;margin-top: -20px;padding-top: 20px;
+    }
+    footer .list{
+        display: flex;
+        margin-left: -448px;
+        margin-top: 14px;
+    }
+    footer .footer_list_menu {
+    font-size: 16px;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 50px;    
+    margin-right: 100px;  
+    }   
+  footer ul{
+    display: flex;
+    }
+    footer .footer_list_menu li{
+    list-style: none;
+    margin-right: 30px;
+    }
+    footer .footer_list_menu a{
+    text-decoration: none;
+    }
+    footer p{
+        color: #E9E9E9;
+        margin-left: 97px; margin-top: -16px;
+    }
+
