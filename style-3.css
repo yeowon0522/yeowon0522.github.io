@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;}
+body{
+    width: 100vw; 
+}
+
+.header{
+    width: 100vw;
+    height: 60px;
+    background: #fff;
+    font-family: 'Inter';
+}
+.header .navi{
+    display: flex;
+}
+.navi ul{ 
+    list-style: none;
+    display: flex;
+    margin-top: 24px;
+}
+.navi li{
+    padding-right: 40px;
+}
+.navi li a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #3D3D3D;
+}
+.menu_btn{
+    text-align: center;
+    padding: 10px;
+}
+.menu_bg{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top:0;
+    display: none;
+}
+.sidebar_menu{
+    position: relative;
+    display: none;
+    width: 20%;
+    height: 100%;
+    background: #E9591D;
+    position: absolute;
+    top:0;
+    right: -20%;
+    border-radius: 0px 0px 0px 140px;
+    padding-left: 10px; padding-top: 5px;
+    z-index: 2;
+}
+.sidebar_menu .link img{
+    position: absolute;
+    width: 90px;
+    /* margin-left: 170px;  */
+    top: 15px; left: 198px;
+}
+.close_btn{ 
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+.close_btn > a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.menu_wrap{
+    list-style: none;
+    padding: 20px 10px;   
+}
+.menu_wrap li{ 
+    padding-top: 15px; padding-bottom: 15px;
+    margin-right: 5px;
+    border-width: 1.2px 0px 1.2px 0px;
+    border-style: solid; border-color: #FFFFFF;
+}
+.menu_wrap li a{ 
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+/* -----첫 번째 단락------- */
+.first{ position: relative;
+    width: 100vw; height: 660px;
+    font-family: 'Inter';
+    background: #303030;
+}
+.first .information{ position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.first h3{ margin-top: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.first h1{ padding-top: 20px; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    color: #E9591D;
+}
+.first p{ 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 20px;
+    color: #fff;
+}
+.first .bt{ position: absolute;
+    width: 200px; height: 48px;
+    left: 0; top: 400px;
+    cursor: pointer;
+    background: #FFFFFF;
+    border: 2.4px solid #E9591D;
+    border-radius: 100px;
+    
+}
+.first .bt h4{ padding-top: 14px; padding-left: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #3D3D3D;
+}
+.first .bt img{
+   margin-top: -58px; margin-left: 127px;
+   transition: all 0.2s ease;
+
+}
+
+.first .bt:hover{
+    background-color: #E9591D;
+}
+.first .bt:hover h4{
+    color: #fff;
+}
+div .photo-wrap{
+    osition: relative;
+}
+.first .photos{
+    background-color: aliceblue;
+    position: absolute;
+    left: 740px;
+    top: 0px;'
+    width: 600px;   
+    height: 563px;
+}
+.first .photos img{
+    position: absolute;
+    left: 40px;
+    top: 0px;'
+
+}
+
+
+
+
+  footer{
+    width: 100%; height: 180px;
+    margin: auto;
+    left: 0;  bottom: 0;
+    background-color: #161616;
+    margin-top: 1000px;
+    }  
+    footer .all{
+    width: 1200px;
+    margin: auto;
+    min-width: 1200px;
+    }
+    footer a {
+    color: #E9E9E9;
+    }  
+    footer .logo{
+    margin-left: 80px;margin-top: -20px;padding-top: 20px;
+    }
+    footer .list{
+        display: flex;
+        margin-left: -448px;
+        margin-top: 14px;
+    }
+    footer .footer_list_menu {
+    font-size: 16px;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 50px;    
+    margin-right: 100px;  
+    }   
+  footer ul{
+    display: flex;
+    }
+    footer .footer_list_menu li{
+    list-style: none;
+    margin-right: 30px;
+    }
+    footer .footer_list_menu a{
+    text-decoration: none;
+    }
+    footer p{
+        color: #E9E9E9;
+        margin-left: 97px; margin-top: -16px;
+    }
+
